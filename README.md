@@ -7,3 +7,10 @@ Pick a famous person’s name (pulled from a spreadsheet or a website UI where a
 - Text-to-audio for voiceover
 - Some library creates a video (MVP can just be a slideshow of voicover over the appropriate images)
 - Uploaded via YouTube API
+
+
+# In progress! #
+*We're still figuring this out and the scripts won't likely work at this point.*
+
+# Contribute #
+We need your help! How? Make a script or two better and then issue a pull request. If you want some guidance, check out the ideas in our Issues page.
