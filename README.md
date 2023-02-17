@@ -10,6 +10,7 @@ Pick a famous person’s name (pulled from a spreadsheet or a website UI where a
 
 
 # In progress! #
+*These scripts are being developed with the gratious help of ChatGPT and GitHub Copilot*
 *We're still figuring this out and the scripts won't likely work at this point.*
 
 # Contribute #
