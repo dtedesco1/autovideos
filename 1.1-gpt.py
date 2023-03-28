@@ -61,9 +61,9 @@ def generate_questions_answers_and_prompts(famous_person, num_questions=5):
 
          # Add the question, answer, and DALL-E prompt to the data list
         data.append({
-            "P": dall_e_prompt,
-            "A": answer,
-            "Q": question
+            "Question": question
+            "Answer": answer,
+            "DALL-E Prompt": dall_e_prompt,
         })
 
     return data
