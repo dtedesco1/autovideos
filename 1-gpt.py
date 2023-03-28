@@ -1,10 +1,9 @@
 import openai
 import json
+import os
 
-# Initialize the API key
-with open("config.txt", "r") as f:
-    API_KEY = f.readline().strip()
-openai.api_key = API_KEY
+# Set the OpenAI API key
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Define the prompt for generating questions
 questions_prompt = 'Generate two interesting and funny questions to ask Abraham Lincoln for a 60-second TikTok video. Return the questions in json format, like {"1": "question", "2": "question"}.'
